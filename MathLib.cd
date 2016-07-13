@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Matrix Hierarchy">
+    <Position X="26.097" Y="1.671" Height="1.248" Width="3.643" />
+  </Comment>
+  <Comment CommentText="Exception Hierarachy">
+    <Position X="14.75" Y="27.5" Height="1.536" Width="4.638" />
+  </Comment>
+  <Class Name="HyperSpectralToolbox::Utilities" Collapsed="true">
+    <Position X="53" Y="57.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Libraries\AMC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HyperSpectralToolbox::Logger" Collapsed="true">
+    <Position X="49.5" Y="55.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAgAAAAQAAAAAAAAAEAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Libraries\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlWord" Collapsed="true">
+    <Position X="0.5" Y="56" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQgAAAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\controlw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Tracer" Collapsed="true">
+    <Position X="51.25" Y="57.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAIAAAAAABAAAAQAAAQAkgA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::BaseException" Collapsed="true">
+    <Position X="15.25" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAgCAAAAEAAAAAAAAAAEQAAAAAAACQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Janitor" Collapsed="true">
+    <Position X="27.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAACAAAAQAABCAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Logic_error" Collapsed="true">
+    <Position X="15" Y="33" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Runtime_error" Collapsed="true">
+    <Position X="33" Y="33" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Domain_error" Collapsed="true">
+    <Position X="4.75" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Invalid_argument" Collapsed="true">
+    <Position X="23" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Length_error" Collapsed="true">
+    <Position X="18.5" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Out_of_range" Collapsed="true">
+    <Position X="10.75" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Range_error" Collapsed="true">
+    <Position X="29.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Overflow_error" Collapsed="true">
+    <Position X="32.75" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::Bad_alloc" Collapsed="true">
+    <Position X="23" Y="33" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::LogAndSign" Collapsed="true">
+    <Position X="47.75" Y="55.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAABAAAAAQAQAAABAAAkAAAAAgAAAAAQA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixType" Collapsed="true">
+    <Position X="47.75" Y="56.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAAAAASQACgAAAQAAgMICCACAIAQiAAIAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixBandWidth" Collapsed="true">
+    <Position X="51.25" Y="55.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAgAABAAgAAAAAAAAQABAAAAAQAAAAQgAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ArrayLengthSpecifier" Collapsed="true">
+    <Position X="47.75" Y="54.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::BaseMatrix" Collapsed="true">
+    <Position X="29.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAECBCEAIAAQEiQAipAAhgAAIAAAjAAICRjAEgAABQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::GeneralMatrix" Collapsed="true">
+    <Position X="18.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgMFCDCBAQQkAS0QAQCDGzyIFIAAIBIRATA2YVkACjU=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::Matrix" Collapsed="true">
+    <Position X="15.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAgAAAAQAAAgQEAAAADAIEAEgABAAAQAgQAEAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::nricMatrix" Collapsed="true">
+    <Position X="16.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAQAEAAAQAAAACEAAAAAAQAABAAAAAgAEEAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SymmetricMatrix" Collapsed="true">
+    <Position X="30.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAQAAAEAAAACgIEAEAABAIAQAgAAkAAAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::UpperTriangularMatrix" Collapsed="true">
+    <Position X="12.25" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAEEAAAEAAQAAIAAEAAAACAIEAUAABAAAQAgAAEAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::LowerTriangularMatrix" Collapsed="true">
+    <Position X="15.75" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAEEAAAEAAQAAAAAEAAAQCAIEAEAABAAAQAgAAEAAIA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::DiagonalMatrix" Collapsed="true">
+    <Position X="9" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAUECAAEAAAAAAAAEAAAACQIEAEAABAAAQAgQAkAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::RowVector" Collapsed="true">
+    <Position X="12.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAAAAAEAAAAAAIEAEAABAAAQAgQEkAAAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ColumnVector" Collapsed="true">
+    <Position X="14.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAIAAAAEEAAAAAIAAEAABAAAQAgAEkAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::CroutMatrix" Collapsed="true">
+    <Position X="24" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAAAASAAACAIEAAAACAEAQAmBGAAAAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::BandMatrix" Collapsed="true">
+    <Position X="21.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAEEGACEAAQAAAQQEACAADgJFIEAIBAQAQAgAAEECAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::UpperBandMatrix" Collapsed="true">
+    <Position X="21.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAAAEAAAAAAIAAEAABEAAQAgAAEAAAE=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::LowerBandMatrix" Collapsed="true">
+    <Position X="23.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAABAAAAEAAAAAAIAAEAABABAQAgAAEAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SymmetricBandMatrix" Collapsed="true">
+    <Position X="18.5" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAEEGACEAAQABAQQEAAAADgIFIEAIhAQAQAgAAkACAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::BandLUMatrix" Collapsed="true">
+    <Position X="27.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEkAQAAAAAAAAAAASAAACAIEAAgACAFAQAyEGAAAAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::IdentityMatrix" Collapsed="true">
+    <Position X="34" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEECAAEAAAAAAAAAAAAACgIEAAAABAAAQAgQAkAAAQ=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::GenericMatrix" Collapsed="true">
+    <Position X="70" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAkAAAAAAAwAAAAAQAAAAACAgAFAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MultipliedMatrix" Collapsed="true">
+    <Position X="41.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEAAAAAAAAAAAAAgAAAAAAAAAAACAAAAgAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::AddedMatrix" Collapsed="true">
+    <Position X="39" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAEAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SPMatrix" Collapsed="true">
+    <Position X="37.75" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::KPMatrix" Collapsed="true">
+    <Position X="35.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAABAAAAggAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ConcatenatedMatrix" Collapsed="true">
+    <Position X="46.5" Y="18.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAkAAAAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::StackedMatrix" Collapsed="true">
+    <Position X="46.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SolvedMatrix" Collapsed="true">
+    <Position X="42.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAABAAAAAAgAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SubtractedMatrix" Collapsed="true">
+    <Position X="41.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ShiftedMatrix" Collapsed="true">
+    <Position X="1.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAgAAAAAAAAAQACAAAAAEAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::NegShiftedMatrix" Collapsed="true">
+    <Position X="3" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ScaledMatrix" Collapsed="true">
+    <Position X="0.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAACAAEAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::NegatedMatrix" Collapsed="true">
+    <Position X="51.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAgAAAAAAAAAAgCAAACAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::TransposedMatrix" Collapsed="true">
+    <Position X="51.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAgAAAIABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ReversedMatrix" Collapsed="true">
+    <Position X="56.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::InvertedMatrix" Collapsed="true">
+    <Position X="62.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAACAAAAAgAAAAAAAAAAQAAgAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::RowedMatrix" Collapsed="true">
+    <Position X="59.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAgAAgAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ColedMatrix" Collapsed="true">
+    <Position X="49.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::DiagedMatrix" Collapsed="true">
+    <Position X="53.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAIAAAgAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatedMatrix" Collapsed="true">
+    <Position X="66.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAAAAAAAgIAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ReturnMatrixX" Collapsed="true">
+    <Position X="76" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAEAAAAAABgAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::GetSubMatrix" Collapsed="true">
+    <Position X="64.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAAAAAACAQECCIwAAAAAAAAAQAAggABAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::LinearEquationSolver" Collapsed="true">
+    <Position X="73" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIACAAAEAAAIA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixInput" Collapsed="true">
+    <Position X="53" Y="55.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAACAAgAAAAAAAAAAEAABAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SimpleIntArray" Collapsed="true">
+    <Position X="25.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAEBABAhEAAgAEEAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::NPDException" Collapsed="true">
+    <Position X="40" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ConvergenceException" Collapsed="true">
+    <Position X="37" Y="34.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SingularException" Collapsed="true">
+    <Position X="46.25" Y="34.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::OverflowException" Collapsed="true">
+    <Position X="43.25" Y="34.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::ProgramException" Collapsed="true">
+    <Position X="2.5" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::IndexException" Collapsed="true">
+    <Position X="8.75" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::VectorException" Collapsed="true">
+    <Position X="6.5" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::NotSquareException" Collapsed="true">
+    <Position X="13" Y="39" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SubMatrixDimensionException" Collapsed="true">
+    <Position X="20.5" Y="39" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::IncompatibleDimensionsException" Collapsed="true">
+    <Position X="25.75" Y="39" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::NotDefinedException" Collapsed="true">
+    <Position X="29" Y="39" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::CannotBuildException" Collapsed="true">
+    <Position X="16" Y="39" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::InternalException" Collapsed="true">
+    <Position X="0.5" Y="39" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::SymmetricEigenAnalysis" Collapsed="true">
+    <Position X="49.5" Y="57.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::FFT_Controller" Collapsed="true">
+    <Position X="49.5" Y="54.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MultiRadixCounter" Collapsed="true">
+    <Position X="49.5" Y="56.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAQgQAAAAAAQABAAMAEAAiCAAAAAg=</HashCode>
+      <FileName>Libraries\matrix\newmatap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::FindMaximum2" Collapsed="true">
+    <Position X="11.75" Y="55" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAQAAEAAACAAgAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatnl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::R1_Col_I_D" Collapsed="true">
+    <Position X="53" Y="56.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAABAAAEAkAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatnl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::NonLinearLeastSquares" Collapsed="true">
+    <Position X="12.75" Y="59.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAAAAAkFiAIIAAAAAAAYAEEAgAEAQgAAIGYIA=</HashCode>
+      <FileName>Libraries\matrix\newmatnl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::LL_D_FI" Collapsed="true">
+    <Position X="53" Y="54.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAIAAABAAQAAkAAAAAAAAABAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatnl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MLE_D_FI" Collapsed="true">
+    <Position X="10.5" Y="59.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAEEAAAAECAIIAACAAAAQAAEAgAAAQgAAAEAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatnl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::LoadAndStoreFlag" Collapsed="true">
+    <Position X="0.5" Y="57.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatrc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixRowCol" Collapsed="true">
+    <Position X="29.5" Y="55" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACBgQEEEMAEgQAEADAhBAkwAFABAAAgCWABAhEhQ=</HashCode>
+      <FileName>Libraries\matrix\newmatrc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixRow" Collapsed="true">
+    <Position X="27" Y="53" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatrc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixCol" Collapsed="true">
+    <Position X="32" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatrc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::MatrixColX" Collapsed="true">
+    <Position X="29.25" Y="52.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAEAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatrc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::RectMatrixRowCol" Collapsed="true">
+    <Position X="26.25" Y="61.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACQAABQAAIAAAIAgAAQEEAAABEAAkAAAAAEA=</HashCode>
+      <FileName>Libraries\matrix\newmatrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::RectMatrixRow" Collapsed="true">
+    <Position X="27.75" Y="59.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAAAAAAAIAAAAEAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Libraries\matrix\newmatrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::RectMatrixCol" Collapsed="true">
+    <Position X="21.25" Y="60" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAhAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Libraries\matrix\newmatrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::RectMatrixDiag" Collapsed="true">
+    <Position X="24.5" Y="59.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAIAAAAAUAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\newmatrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NEWMAT::FloatingPointPrecision" Collapsed="true">
+    <Position X="51.25" Y="54.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIACAAAAACAAgQAQAAABAAAAQAAAAAAAAIAIAIAA=</HashCode>
+      <FileName>Libraries\matrix\precisio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::R1_R1" Collapsed="true">
+    <Position X="47.75" Y="57.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAQAAAAAABgAAEAgAAACAAAAAAAAAAABAIBQAAAA=</HashCode>
+      <FileName>Libraries\matrix\solution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::SolutionException" Collapsed="true">
+    <Position X="8" Y="33" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\solution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBD_COMMON::OneDimSolve" Collapsed="true">
+    <Position X="51.25" Y="56.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAgAAAgAAACAwEAAAEIAAEAAAAAYABihAQCCAo=</HashCode>
+      <FileName>Libraries\matrix\solution.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="RBD_COMMON::Real" Collapsed="true">
+    <Position X="49.5" Y="60" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\include.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RBD_COMMON::long_Real" Collapsed="true">
+    <Position X="47.75" Y="60" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\include.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Exception" Collapsed="true">
+    <Position X="17.5" Y="29.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libraries\matrix\myexcept.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="NEWMAT::LSF" Collapsed="true">
+    <Position X="47.75" Y="59" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAAAAAAAEAAAAAAAAAAACAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Libraries\matrix\newmatrc.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
