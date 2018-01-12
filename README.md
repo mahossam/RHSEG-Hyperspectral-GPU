@@ -1,5 +1,5 @@
-# RHSEG-Hyperspectral-GPU
-Implementation of the paper "Accelerated hyperspectral image recursive hierarchical segmentation using GPUs, multicore CPUs, and hybrid CPU/GPU cluster".
+# RHSEG Hyperspectral GPU
+Implementation of the paper "**Accelerated hyperspectral image recursive hierarchical segmentation using GPUs, multicore CPUs, and hybrid CPU/GPU cluster**".
 
 The paper accelerated NASA's hyperspectral clustering algorithm called "RHSEG" (Recursive Hierarchical Segmentation) using hyprid CPU/GPU parallel implementation, using NVIDIA CUDA and Microsoft C++ AMP and QtConcurrent Library.
 
